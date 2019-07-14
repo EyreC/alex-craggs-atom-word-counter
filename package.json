@@ -1,0 +1,18 @@
+{
+  "name": "alex-craggs-atom-word-counter",
+  "main": "./lib/alex-craggs-atom-word-counter",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "alex-craggs-atom-word-counter:toggle"
+  },
+  "repository": "https://github.com/EyreC/alex-craggs-atom-word-counter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

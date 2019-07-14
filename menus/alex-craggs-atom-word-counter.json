@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle alex-craggs-atom-word-counter",
+        "command": "alex-craggs-atom-word-counter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "alex-craggs-atom-word-counter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "alex-craggs-atom-word-counter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

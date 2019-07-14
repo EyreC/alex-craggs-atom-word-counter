@@ -1,0 +1,17 @@
+if (this.modalPanel.isVisible()) {
+  this.modalPanel.hide();
+}
+else {
+  const editor = atom.workspace.getActiveTextEditor();
+  const words = editor.getText().split(/\s+/).length;
+  this.alexCraggsAtomWordCounterView.setCount(words);
+  this.modalPanel.show();
+}
+
+
+}
+
+setCount(count) {
+const displayText = `There are ${count} words.`;
+this.element.children[0].textContent = displayText;
+}
