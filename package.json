@@ -1,10 +1,9 @@
 {
   "name": "alex-craggs-atom-word-counter",
   "main": "./lib/alex-craggs-atom-word-counter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Trial word counter to understand atom packaging",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "alex-craggs-atom-word-counter:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
